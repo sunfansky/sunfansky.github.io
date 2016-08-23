@@ -1,0 +1,87 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.center-container {
+  /* responsive */
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  font-size: 70px;
+  color: #404040;
+  font-family: Jaldi;
+}
+
+.navbar {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.navbar > a {
+  font-family: "Open Sans";
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #404040;
+}
+
+.projects img {
+  display: inline;
+  padding: 5px;
+  border: 1px solid #ddd;
+  margin: 5px;
+}
+
+.resume {
+  line-height: 50px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: inline-block;
+}
+
+.resume > i {
+  vertical-align: middle;
+}
+.resume > span {
+  font-family: "Open Sans";
+  margin-left: 5px;
+}
+
+.contact {
+  margin-bottom: 40px;
+}
+
+.contact a {
+  margin: 0 10px;
+}
+
+/* http://front-back.com/pure-css-3-fancy-separator */
+.or-spacer {
+  margin: 40px auto 40px auto;
+  width: 400px;
+  position: relative;
+}
+
+.or-spacer .mask {
+  overflow: hidden;
+  height: 20px;
+}
+
+.or-spacer .mask:after {
+  content: '';
+  display: block;
+  margin: -25px auto 0;
+  width: 100%;
+  height: 25px;
+  border-radius: 125px / 12px;
+  box-shadow: 0 0 8px black;
+}
